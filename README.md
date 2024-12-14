@@ -1,31 +1,37 @@
 PvPoke Data Extractor
 
-Description:
+Description
+The PvPoke Data Extractor is a simple Python script designed to retrieve data from PvPoke's Game Master file and convert it into CSV format. PvPoke is a widely-used online tool for Pokémon GO players, and this script allows users to easily extract detailed information about Pokémon and moves for analysis or other purposes.
 
-This simple Python script retrieves data from the PvPoke Game Master file and converts it into CSV format. PvPoke is a popular online tool for Pokemon GO players, and this script facilitates the extraction of moves and Pokemon data for analysis.
+How to Use
+Prerequisites
 
-How to Use:
+    Python 3.x or higher installed on your machine.
+    Ensure you have an internet connection to fetch data from the PvPoke Game Master file.
 
-    Dependencies:
-        Ensure you have Python installed.
+Running the Script
 
-    Running the Script:
-        Execute the script using a Python interpreter.
-        The script fetches data from PvPoke's Game Master file and generates two CSV files: moves.csv and pokemon.csv.
+    Clone or download the repository containing the script.
+    Open your terminal (or command prompt) and navigate to the directory containing the script.
+    Run the script using the following command:
 
-    Generated Files:
-        moves.csv: Contains data related to different moves in Pokemon GO.
-        pokemon.csv: Includes information about various Pokemon.
+    python pvpoke_data_extractor.py
 
-    Customization:
-        You can modify the script to adjust the extracted data or file names.
+The script will automatically fetch data from PvPoke’s Game Master file and generate the following CSV files:
+Generated Files
 
-Important Note:
+    moves.csv: Contains information about the various moves available in Pokémon GO, including their names, types, and power values.
+    pokemon.csv: Includes details about Pokémon, such as their names, types, stats, and other relevant attributes.
 
-This script relies on PvPoke's API. Ensure compliance with PvPoke's usage policies and respect their terms and conditions.
+Customization
 
-Disclaimer:
+The script can be modified to:
 
-This script is provided as-is and without warranty. Use it responsibly and adhere to the terms and conditions of the services it interacts with.
+    Change the file names for the generated CSVs.
+    Filter or adjust the type of data being extracted from PvPoke’s Game Master file.
 
-Feel free to contribute or provide feedback. Happy coding!
+Feel free to modify the code to suit your needs!
+Important Notes
+
+    This script uses PvPoke’s API to extract data. Please ensure that you comply with PvPoke’s usage policies and terms and conditions when using this script.
+    The extracted data is publicly available through PvPoke, but usage should always follow ethical guidelines.
